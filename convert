@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# convert decimal to 8 bit binary
+# convert decimal to binary
 
 decimal = int(input("Enter number:"))
 binary = ""
