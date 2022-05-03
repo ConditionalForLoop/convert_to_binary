@@ -1,2 +1,10 @@
 # convert decimal to 8 bit binary
 
+decimal = int(input("Enter number:"))
+binary = ""
+while decimal > 0:
+    # Binary right shift /2
+    binary = str(decimal % 2) + binary
+    decimal = decimal // 2
+print(binary)
+    
